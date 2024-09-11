@@ -1,0 +1,228 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 1, 2024, 3:06:16 PM
+    Author     : Norttie
+*/
+
+
+
+/*base*/
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: Arial, sans-serif;
+}
+.header{
+    background-color: #fff;
+}
+
+.container {
+    font-size: 2rem;
+    font-weight: 400;
+}
+input:focus,
+select:focus {
+    outline: none;
+}
+a,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+/*header*/
+.header{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.header .logo {
+    height: 40px;
+    object-fit: cover;
+}
+.nav-item:hover{
+    background-color: #eee;
+    border-radius: 5px;
+}
+.body{
+
+}
+/*user profile*/
+.user {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logout-btn{
+    position: absolute;
+    font-size: 10px;
+    right:15px;
+    padding: 5px;
+    background-color: #e8f3f9;
+    border-radius: 4px;
+}
+.pro-name{
+    font-weight: 600;
+}
+/*end header*/
+/*home*/
+.home-info{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.home-info__header{
+    font-weight: 900;
+}
+.home-search{
+    width: 200px ! important;
+}
+
+
+/*end home*/
+survey-title {
+    text-align: center;
+}
+
+/*survey create and answer*/
+.survey{
+    margin-top: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.addoption-btn{
+    background-color: #759cec;
+    border-radius: 5px;
+}
+
+.option{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+
+
+.survey-btn{
+    background-color: green;
+    border-radius: 5px;
+}
+.survey-submit{
+    background-color: #427a9d;
+    border-radius: 5px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.form-survey input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.optionsContainer {
+    margin-top: 10px;
+}
+/*table survey*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tbody tr {
+    cursor: pointer; /* Thêm con trỏ chuột dạng pointer */
+}
+tbody tr:hover {
+    background-color: #f1f1f1; /* Thêm hiệu ứng hover */
+}
+tbody th{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+th.rs-name {
+    width: 35%;
+}
+.btn-cos {
+    background-color: #71c9ff;
+    color: #fff;
+}
+.search{
+    width:inherit;
+    padding: 0 0 0 10px;
+    margin-top: 0;
+}
+.input-icon{
+    width: 25px !important;
+
+}
+
+
+/*custome formlog*/
+.form-log{
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+}
+
+/*footer*/
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
